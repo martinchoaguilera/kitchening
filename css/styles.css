@@ -1,0 +1,157 @@
+html{
+     background-image: url(../images/bg-body.png);
+}
+body{
+     /* border: 2px solid; */
+     margin:10px;
+}
+
+a{
+     text-decoration: none;
+     color: white;
+}
+ul{
+     list-style-type: none;
+}
+/* HEADER */
+header{
+     text-align: center;
+     width: 100%;
+}
+header img{
+     border-radius: 120px;
+}
+
+header ul{
+     padding: 0 0 0 0;
+}
+
+header ul li{
+     background-color: gray;
+     padding: 5px;
+     border: 1px solid
+}
+/* BODY */
+     /* IMAGENES  */
+     .banner{
+          display: none;
+     }
+
+     .photo-container{
+          /* background-color: chocolate; */
+          position: relative;
+     }
+     .photo{
+          width: 100%;
+     }
+     .special{
+          position :absolute;
+          top:0;
+          right: 0;
+     }
+     .zoom i{
+          position: absolute;
+          bottom:0;
+          left: 0;
+          color: black;
+          background-color: rgba ( 255, 255, 253, 0.2 );
+     }
+
+     /* CUERPO */
+
+     .product{
+          margin-bottom: 20px;
+          padding: 5px;
+     }
+     .product button{
+          padding: 5px;
+          background-color:gray;
+          /* outline: none; */
+          border:none;
+
+     }
+
+/* FOOTER */
+     footer ul{
+          text-align: center;
+         padding: 0 0 0 0;
+     }
+    footer ul li{
+         background-color: gray;
+         padding: 5px;
+     border: 1px solid
+    }
+
+@media (min-width: 768px){
+     /* body{
+          background-color: greenyellow;
+     } */
+
+     /* HEADER */
+
+          header ul{
+               overflow: hidden;
+               width: 100%;
+          }
+          header ul li{
+               float: left;
+               width: 15%;
+          }
+
+     /* BODY */
+
+          /* IMAGENES */
+
+               .banner{
+                    display:block;
+               }
+               .banner img{
+                    width: 100%;
+               }
+          /* CUERPO */
+
+               .vip-products{
+                    overflow: hidden;
+                    margin-top: 10px;
+               }
+               .product{
+                    float: left;
+                    width: 46%;
+                    margin-left: 10px;
+               }
+}
+
+
+@media (min-width: 1680px){
+     body{
+          margin-left: 150px;
+          width: 80%;
+          /* position: relative; */
+     }
+
+     header ul li {
+          margin:4px;
+          margin-left: 6px;
+     }
+     .banner{
+          margin:4px
+     }
+
+     .product{
+          width: 30%;
+          margin-left: 25px;
+     }
+
+     footer ul{
+          background-color: red;
+          padding: 40px;
+          border-radius: 30px 30px 0px 0px;
+     }
+     footer ul li{
+          display: inline;
+          border: none;
+          background-color: red;
+          border-right: 1px solid white;
+
+     }
+}

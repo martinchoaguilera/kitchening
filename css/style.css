@@ -1,0 +1,136 @@
+/* HEADER */
+header{
+     text-align: center;
+     width: 100%;
+}
+header img{
+     border-radius: 120px;
+}
+header ul{
+     list-style-type: none;
+     padding: 0 0 0 0;
+     /* background-color: tomato; */
+}
+header ul li{
+     background-color: grey;
+     text-align: center;
+     padding: 8px;
+     margin-bottom: 1px;
+     border: 1px solid;
+}
+header ul li a{
+     text-decoration: none;
+     color: black;
+}
+
+/* BODY */
+     /* IMAGENES  */
+          .banner{
+               display: none;
+          }
+
+          .photo-container{
+               /* background-color: chocolate; */
+               position: relative;
+          }
+          .photo{
+               width: 100%;
+          }
+          .special{
+               position :absolute;
+               top:0;
+               right: 0;
+          }
+          .zoom i{
+               position: absolute;
+               bottom:0;
+               left: 0;
+               color: black;
+               background-color: rgba ( 255, 255, 253, 0.2 );
+          }
+     
+     /* TEXTO */
+          .product{
+               margin-bottom: 20px;
+          }
+
+/* FOOTER */
+
+footer ul{
+     list-style-type: none;
+     /* background-color: tomato; */
+}
+footer ul li{
+     background-color:grey;
+     text-align: center;
+     margin-left: -40px;
+     padding: 8px;
+     margin-bottom: 1px;
+     border: 1px solid;
+}
+footer ul li a{
+     text-decoration: none;
+     color: black;
+}
+
+
+@media (min-width:768px){
+     /* HEADER */
+          header ul{
+               background-color: blue;
+               overflow: hidden;
+               
+               width: 100%;
+          }
+          .main-nav ul li{
+               /* background-color: coral; */
+               /* width: 12.9%; */
+               margin: 20px;
+               float: left;
+               margin: 5px;
+          }
+     /* BODY */
+          /* IMAGENES */
+
+               .banner{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    background-color: darkorange;
+               }
+               .banner img{
+                    width: 100%;
+               }
+     
+     
+          /* TEXTO */
+               .vip-products{
+                    background-color: darkorange;
+                    overflow: hidden;
+               }
+               .product{
+                    /* background-color: darkgreen; */
+                    float: left;
+                    width: 50%;
+               }
+     }
+
+
+     @media (min-width:1680px){
+           /* TEXTO */
+           .vip-products{
+               overflow: hidden;
+               /* margin:10px; */
+          }
+          .product{
+               /* background-color: darkgreen; */
+               float: right;
+               width: 36%;
+               padding: 30px;
+               /* border: 3px solid; */
+          }
+          .cambios{
+               position: relative;
+               right: 60px;
+          }
+     }
